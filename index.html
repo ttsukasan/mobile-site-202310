@@ -23,17 +23,24 @@
 </head>
 
 <body>
-<main class="container">
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-  <h1 class="text-center">Mobile Site</h1>
-  <p class="text-center">
-    <a href="https://github.com/ttsukasan/mobile-site-202310">
-      <img height="32" width="32" src="https://unpkg.com/simple-icons@v9/icons/github.svg" alt="github"/>
-    </a>
-  </p>
-</main>
+<div
+  class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gradient-to-r from-yellow-200 to-yellow-5000">
+  <div
+    class="relative bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 mx-auto max-w-md  min-h-screen bg-stone-50">
+    <main class="mx-auto max-w-md">
+      <div class="text-center">
+        <h1 class="text-4xl font-bold">Mobile Site</h1>
+        <p>コンテンツ</p>
+        <div class="text-center">
+          <a href="https://github.com/ttsukasan/mobile-site-202310">
+            <img class="w-8" src="https://unpkg.com/simple-icons@v9/icons/github.svg" alt="github"/>
+          </a>
+        </div>
+        <img src="img/shark.png" alt="logo" class="w-96">
+      </div>
+    </main>
+  </div>
+</div>
 <script type="module" src="js/vendor/modernizr-3.11.2.min.js"></script>
 <script type="module" src="js/plugins.js"></script>
 <script type="module" src="js/main.js"></script>
