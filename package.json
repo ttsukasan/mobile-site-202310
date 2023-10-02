@@ -8,8 +8,8 @@
   "license": "",
   "author": "ttsukasan",
   "scripts": {
-    "build": "parcel build index.html -d ./docs --public-url /mobile-site-202310/",
-    "dev": "parcel index.html --open",
+    "build": "parcel build index.html --dist-dir ./docs --public-url /mobile-site-202310/",
+    "dev": "parcel index.html --open --dist-dir ./docs",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
