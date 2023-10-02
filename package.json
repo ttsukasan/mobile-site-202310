@@ -2,16 +2,27 @@
   "name": "mobile-site-202310",
   "version": "0.0.1",
   "description": "description",
-  "keywords": [""],
+  "keywords": [
+    ""
+  ],
   "license": "",
   "author": "ttsukasan",
   "scripts": {
-    "build": "parcel build index.html -d ./docs --public-url /animal-combine-puzzle/",
+    "build": "parcel build index.html -d ./docs --public-url /mobile-site-202310/",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "@parcel/config-default": "^2.0.0",
+    "@parcel/packager-raw-url": "^2.0.0",
+    "@parcel/transformer-less": "^2.0.0",
+    "@parcel/transformer-postcss": "^2.0.0",
+    "@parcel/transformer-raw": "^2.0.0",
+    "@parcel/transformer-typescript-tsc": "^2.0.0",
+    "@parcel/transformer-webmanifest": "^2.0.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "parcel": "^2.0.0-nightly.1383"
   }
 }
